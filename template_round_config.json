@@ -1,0 +1,72 @@
+{
+    "starting_health": -1,
+    "items": {
+        "hand saw": [
+            2,
+            32,
+            true
+        ],
+        "magnifying glass": [
+            2,
+            32,
+            true
+        ],
+        "jammer": [
+            1,
+            1,
+            true
+        ],
+        "cigarette pack": [
+            1,
+            32,
+            true
+        ],
+        "beer": [
+            8,
+            32,
+            true
+        ],
+        "burner phone": [
+            8,
+            32,
+            true
+        ],
+        "adrenaline": [
+            4,
+            32,
+            true
+        ],
+        "inverter": [
+            4,
+            32,
+            true
+        ],
+        "remote": [
+            1,
+            2,
+            true
+        ]
+    },
+    "sequences": [
+        [
+            -1,
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1,
+            -1
+        ]
+    ]
+}

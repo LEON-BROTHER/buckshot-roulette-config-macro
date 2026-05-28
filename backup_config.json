@@ -1,0 +1,222 @@
+{
+    "global_config": {
+        "number_of_rounds": 1,
+        "skip_intro": true
+    },
+    "round1_config": {
+        "starting_health": 1,
+        "items": {
+            "hand saw": [
+                2,
+                32,
+                true
+            ],
+            "magnifying glass": [
+                1,
+                2,
+                true
+            ],
+            "jammer": [
+                1,
+                2,
+                true
+            ],
+            "cigarette pack": [
+                1,
+                32,
+                false
+            ],
+            "beer": [
+                8,
+                32,
+                true
+            ],
+            "burner phone": [
+                8,
+                32,
+                true
+            ],
+            "adrenaline": [
+                4,
+                32,
+                false
+            ],
+            "inverter": [
+                4,
+                32,
+                true
+            ],
+            "remote": [
+                1,
+                2,
+                false
+            ]
+        },
+        "sequences": [
+            [
+                -1,
+                -1,
+                0
+            ],
+            [
+                5,
+                5,
+                1
+            ],
+            [
+                9,
+                1,
+                5
+            ],
+            [
+                1,
+                9,
+                -1
+            ]
+        ]
+    },
+    "round2_config": {
+        "starting_health": 5,
+        "items": {
+            "hand saw": [
+                2,
+                32,
+                true
+            ],
+            "magnifying glass": [
+                1,
+                2,
+                true
+            ],
+            "jammer": [
+                1,
+                2,
+                true
+            ],
+            "cigarette pack": [
+                1,
+                32,
+                false
+            ],
+            "beer": [
+                8,
+                32,
+                true
+            ],
+            "burner phone": [
+                8,
+                32,
+                true
+            ],
+            "adrenaline": [
+                4,
+                32,
+                false
+            ],
+            "inverter": [
+                4,
+                32,
+                true
+            ],
+            "remote": [
+                1,
+                2,
+                false
+            ]
+        },
+        "sequences": [
+            [
+                4,
+                4,
+                2
+            ],
+            [
+                4,
+                4,
+                2
+            ],
+            [
+                4,
+                4,
+                2
+            ],
+            [
+                4,
+                4,
+                2
+            ]
+        ]
+    },
+    "round3_config": {
+        "starting_health": 5,
+        "items": {
+            "hand saw": [
+                2,
+                32,
+                true
+            ],
+            "magnifying glass": [
+                1,
+                2,
+                true
+            ],
+            "jammer": [
+                1,
+                2,
+                true
+            ],
+            "cigarette pack": [
+                1,
+                32,
+                false
+            ],
+            "beer": [
+                8,
+                32,
+                true
+            ],
+            "burner phone": [
+                8,
+                32,
+                true
+            ],
+            "adrenaline": [
+                4,
+                32,
+                false
+            ],
+            "inverter": [
+                4,
+                32,
+                true
+            ],
+            "remote": [
+                1,
+                2,
+                false
+            ]
+        },
+        "sequences": [
+            [
+                4,
+                4,
+                2
+            ],
+            [
+                4,
+                4,
+                2
+            ],
+            [
+                4,
+                4,
+                2
+            ],
+            [
+                4,
+                4,
+                2
+            ]
+        ]
+    }
+}
