@@ -2,7 +2,10 @@
 > Note: I did this in like 1-2 hours. If you find any issues send a issue or a pull request to fix the issue. 
 > And yea, I did use 3 monitors but I was to lazy to add it in for a personal project. 
 
+
 ## How to install
+
+You need python for this script
 
 1. Download the script
 
@@ -13,6 +16,8 @@
 If that doesn't work, use requirements.txt
 
 3. Run and boom it works. (Hopefully)
+
+Run this script only in the match options screen!!
 
 ## Config editing
 
@@ -97,7 +102,7 @@ If that doesn't work, use requirements.txt
 <br>
 
 #### Sequence config
-> Note: -1 => Random
+> Note: -1 => Random <br\>
 > The sum of lives and blanks can only be a max of 10
 <table>
 	<thead>
