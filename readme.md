@@ -1,6 +1,6 @@
 # Buckshot Roulette Config for Lobbys via pyautogui 
 > Note: I did this in like 1-2 hours. If you find any issues send a issue or a pull request to fix the issue. 
-> And yea, I did use 3 monitors but I was to lazy to add it in for a personal project. 
+> And yea, I did use 3 monitors but I was lazy to add it in for a personal project. 
 
 
 ## How to install
