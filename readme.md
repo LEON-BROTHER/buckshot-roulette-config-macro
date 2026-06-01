@@ -102,7 +102,8 @@ Run this script only in the match options screen!!
 <br>
 
 #### Sequence config
-> Note: -1 => Random <br\>
+> Note: -1 => Random
+
 > The sum of lives and blanks can only be a max of 10
 <table>
 	<thead>
