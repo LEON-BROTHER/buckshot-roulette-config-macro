@@ -5,8 +5,23 @@ import tkinter as tk
 
 EXECUTE_MODE = "execute" 
 
-current_screen_width, current_screen_height = pyautogui.size()
+current_screen_width = pyautogui.size().width
+current_screen_height = pyautogui.size().height 
 
+print(f"Current screen resolution: {current_screen_width}x{current_screen_height}")
+user_input = input("Is the detected screen resolution correct? (y/n): ").strip().lower()
+if user_input != 'y':
+    while True:
+        user_input = input("Please enter the correct screen resolution (e.g., 1920x1080): ").strip().lower()
+        if 'x' in user_input:
+            width_height = user_input.split('x')
+            if len(width_height) == 2 and width_height[0].isdigit() and width_height[1].isdigit():
+                current_screen_width = int(width_height[0])
+                current_screen_height = int(width_height[1])
+                print(f"Using custom screen resolution: {current_screen_width}x{current_screen_height}")
+                break
+        print("Invalid input. Please enter the resolution in the format 'widthxheight' (e.g., 1920x1080).")
+    
 TARGET_RESOLUTION = f"{current_screen_width}x{current_screen_height}"
 
 class Config:
@@ -39,6 +54,7 @@ class Config:
                 default_config.starting_health = -1
                 time.sleep(click_wait)
             else:
+                default_config.starting_health = 0
                 while config.starting_health != default_config.starting_health:
                     if config.starting_health > default_config.starting_health:
                         pyautogui.click(pos.plus_starting_health_pos)
@@ -226,10 +242,15 @@ class CompleteConfig:
 
         if self.global_config.number_of_rounds == 1:
             self.round1_config.enterConf()
-        elif self.global_config.number_of_rounds <= 2:
+        elif self.global_config.number_of_rounds == 2:
+            self.round1_config.enterConf()
             self.round2_config.enterConf()
-        elif self.global_config.number_of_rounds <= 3:
+        elif self.global_config.number_of_rounds == 3:
+            self.round1_config.enterConf()
+            self.round2_config.enterConf()
             self.round3_config.enterConf()
+        else:
+            self.round1_config.enterConf()
 
         pyautogui.click(pos.save_and_back_pos)
         time.sleep(click_wait)
