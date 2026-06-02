@@ -240,17 +240,12 @@ class CompleteConfig:
 
         self.global_config.enterConf()
 
-        if self.global_config.number_of_rounds == 1:
+        if self.global_config.number_of_rounds >= 1:
             self.round1_config.enterConf()
-        elif self.global_config.number_of_rounds == 2:
-            self.round1_config.enterConf()
+        if self.global_config.number_of_rounds >= 2:
             self.round2_config.enterConf()
-        elif self.global_config.number_of_rounds == 3:
-            self.round1_config.enterConf()
-            self.round2_config.enterConf()
+        if self.global_config.number_of_rounds == 3:
             self.round3_config.enterConf()
-        else:
-            self.round1_config.enterConf()
 
         pyautogui.click(pos.save_and_back_pos)
         time.sleep(click_wait)
